@@ -1,13 +1,14 @@
-import React from "react";
+import { useState }from "react";
 import "./style.css"
 
 function About(props){
   return(
+    const [year, setYear] = useState("2016");
     <>
     <container>
    <h1>Lavender Revolution{props.color}</h1>
    <br/>
-   <h4>About</h4>
+   <h4>About{year}</h4>
    <br/>
    <p>It aims to promote the indigenous aromatic crop-based agro-economy by shifting from 
     foreign aromatics to homegrown kinds.

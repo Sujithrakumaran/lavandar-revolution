@@ -8,7 +8,7 @@ function About(props){
     <container>
    <h1>Lavender Revolution{props.color}</h1>
    <br/>
-   <h4>About{year}</h4>
+   <h4>About lavendar revolution in {year}</h4>
    <br/>
    <p>It aims to promote the indigenous aromatic crop-based agro-economy by shifting from 
     foreign aromatics to homegrown kinds.

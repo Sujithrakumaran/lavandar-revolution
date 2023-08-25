@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css"
 
-function About(){
+function About(props){
   return(
     <>
     <container>
-   <h1>Lavender Revolution</h1>
+   <h1>Lavender Revolution{props.purple}</h1>
    <br/>
    <h4>About</h4>
    <br/>

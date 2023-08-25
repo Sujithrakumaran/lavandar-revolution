@@ -13,7 +13,7 @@ function App(){
     <>
     <Navbar />
     <Image />
-    <About />
+    <About color="purple"/>
 
     </>
   )

@@ -5,7 +5,7 @@ function About(props){
   return(
     <>
     <container>
-   <h1>Lavender Revolution{props.purple}</h1>
+   <h1>Lavender Revolution{props.color}</h1>
    <br/>
    <h4>About</h4>
    <br/>
